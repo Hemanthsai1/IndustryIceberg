@@ -7,9 +7,6 @@ const VideoCreationService: FC = () => {
       {/* Header */}
       <header className="video-header">
         <div className="video-header-content">
-          <div className="header-logo">
-            <img src="/assets/fda-image-o-wua1p2.png" alt="Industry Iceberg Logo" />
-          </div>
           <h1 className="header-title">Video Creation Service</h1>
           <p className="header-subtitle">
             Transform your SOP and training documents into structured, high-quality training videos 
@@ -20,26 +17,6 @@ const VideoCreationService: FC = () => {
 
       {/* Main Content */}
       <div className="video-main-layout">
-        {/* Sidebar */}
-        <aside className="video-sidebar">
-          <h3 className="sidebar-title">Navigation</h3>
-          <nav className="sidebar-nav">
-            <a href="#overview" className="nav-item active">Overview</a>
-            <a href="#features" className="nav-item">Features</a>
-            <a href="#workflow" className="nav-item">Workflow</a>
-            <a href="#use-cases" className="nav-item">Use Cases</a>
-            <a href="#pricing" className="nav-item">Pricing</a>
-          </nav>
-          
-          <div className="sidebar-cta">
-            <h4 className="cta-title">Need Help?</h4>
-            <p className="cta-text">Get in touch with our team</p>
-            <a href="mailto:info@industryiceberg.com" className="cta-button">
-              Contact Us
-            </a>
-          </div>
-        </aside>
-
         {/* Content Area */}
         <main className="video-content">
           {/* Key Capabilities */}
@@ -326,7 +303,7 @@ const VideoCreationService: FC = () => {
       <footer className="video-footer">
         <div className="footer-content">
           <p className="footer-text">
-            © 2024 Industry Iceberg. All rights reserved.
+            © 2026 Industry Iceberg. All rights reserved.
           </p>
         </div>
       </footer>

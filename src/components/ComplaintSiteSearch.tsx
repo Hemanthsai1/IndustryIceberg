@@ -14,27 +14,8 @@ const ComplaintSiteSearch: FC = () => {
         <h1 className="hero-title">Complaint Site Selection</h1>
       </section>
 
-      {/* What is Complaint Site Selection Section */}
+      {/* Current Challenges Section */}
       <section className="gmp-content">
-        <div className="content-card">
-          <div className="content-header">
-            <div className="content-icon">
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h2 className="content-title">What is Complaint Site Selection?</h2>
-          </div>
-          <div className="content-body">
-            <p>
-              An AI-powered discovery platform designed to help life sciences companies effortlessly 
-              identify and select the most compliant and capable manufacturing sites based on complaint 
-              data analysis, ensuring regulatory and quality excellence at every step.
-            </p>
-          </div>
-        </div>
-
-        {/* Current Challenges Section */}
         <div className="content-card">
           <div className="content-header">
             <div className="content-icon">
@@ -125,7 +106,7 @@ const ComplaintSiteSearch: FC = () => {
                 <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </div>
-            <h2 className="content-title">Our Solutions</h2>
+            <h2 className="content-title">Solutionss</h2>
           </div>
           <div className="content-body">
             <p className="content-intro">
