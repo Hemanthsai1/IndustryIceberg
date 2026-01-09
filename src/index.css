@@ -5,39 +5,48 @@
 }
 
 :root {
-  /* Modern Professional Color Palette */
-  --primary-blue: #2563eb;
-  --primary-blue-dark: #1d4ed8;
-  --primary-blue-light: #dbeafe;
-  --primary-gradient: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-  --accent-teal: #06b6d4;
-  --accent-purple: #7c3aed;
-  --success-green: #10b981;
+  /* IndustryIceberg Brand Color Palette */
+  /* Primary Brand Color - For headings, navigation, links, primary buttons, key highlights */
+  --primary-blue: #1e82c9;
+  --primary-blue-dark: #1a6ba8;
+  --primary-blue-darker: #155587;
+  --primary-blue-light: #e6f2fa;
+  --primary-blue-lighter: #f0f7fc;
+  --primary-gradient: linear-gradient(135deg, #1e82c9 0%, #1a6ba8 100%);
   
-  /* Text Colors */
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-muted: #64748b;
-  --text-light: #94a3b8;
+  /* Secondary Accent - For icons, success states, subtle highlights, interactive elements */
+  --accent-green: #23AE4F;
+  --accent-green-light: #e6f7eb;
+  --accent-green-dark: #1d8f41;
   
-  /* Background Colors */
+  /* Darker Text/Depth - For darker text, section headers, depth where stronger contrast is needed */
+  --text-dark: #10455C;
+  
+  /* Clean White and Soft Off-White Backgrounds */
   --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --bg-tertiary: #f1f5f9;
-  --bg-gradient: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  --bg-secondary: #fafbfc;
+  --bg-tertiary: #f5f7f9;
+  --bg-gradient: linear-gradient(180deg, #ffffff 0%, #fafbfc 100%);
   
-  /* Border Colors */
-  --border-color: #e2e8f0;
-  --border-light: #f1f5f9;
-  --border-dark: #cbd5e1;
+  /* Text Hierarchy - Using brand colors where appropriate */
+  --text-primary: #10455C;
+  --text-secondary: #4a5568;
+  --text-muted: #6b7280;
+  --text-light: #9ca3af;
+  --text-lighter: #d1d5db;
   
-  /* Shadows - Modern & Layered */
-  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  /* Border Colors - Subtle and Professional */
+  --border-color: #e5e7eb;
+  --border-light: #f3f4f6;
+  --border-dark: #d1d5db;
+  
+  /* Shadows - Subtle and Professional (using primary brand color) */
+  --shadow-xs: 0 1px 2px 0 rgba(31, 131, 201, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(31, 131, 201, 0.08), 0 1px 2px -1px rgba(31, 131, 201, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(31, 131, 201, 0.1), 0 2px 4px -2px rgba(31, 131, 201, 0.08);
+  --shadow-lg: 0 10px 15px -3px rgba(31, 131, 201, 0.12), 0 4px 6px -4px rgba(31, 131, 201, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(31, 131, 201, 0.15), 0 8px 10px -6px rgba(31, 131, 201, 0.12);
+  --shadow-2xl: 0 25px 50px -12px rgba(31, 131, 201, 0.2);
   
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -69,9 +78,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  line-height: 1.6;
+  line-height: 1.7;
   overflow-x: hidden;
   font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
 }
 
 html {

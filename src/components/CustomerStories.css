@@ -18,12 +18,8 @@
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-weight: 700;
   margin-bottom: 1.25rem;
-  color: var(--text-primary);
+  color: var(--primary-blue);
   letter-spacing: -0.5px;
-  background: var(--primary-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .stories-subtitle {
@@ -43,10 +39,10 @@
 .story-card {
   background: white;
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-2xl);
-  padding: 3rem;
-  transition: all var(--transition-slow);
-  box-shadow: var(--shadow-md);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  transition: all var(--transition-base);
+  box-shadow: var(--shadow-sm);
   position: relative;
   overflow: hidden;
 }
@@ -57,16 +53,16 @@
   top: 1rem;
   left: 1.5rem;
   font-size: 6rem;
-  color: var(--primary-blue-light);
+  color: var(--primary-blue-lighter);
   font-family: Georgia, serif;
   line-height: 1;
-  opacity: 0.3;
+  opacity: 0.25;
   z-index: 0;
 }
 
 .story-card:hover {
-  transform: translateY(-6px);
-  box-shadow: var(--shadow-2xl);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
   border-color: var(--primary-blue);
 }
 
@@ -97,15 +93,15 @@
   height: 72px;
   border-radius: var(--radius-full);
   object-fit: cover;
-  border: 3px solid var(--primary-blue-light);
-  box-shadow: var(--shadow-sm);
+  border: 2px solid var(--border-color);
+  box-shadow: var(--shadow-xs);
   transition: all var(--transition-base);
 }
 
 .story-card:hover .author-image {
-  border-color: var(--primary-blue);
-  transform: scale(1.05);
-  box-shadow: var(--shadow-md);
+  border-color: var(--accent-green);
+  transform: scale(1.03);
+  box-shadow: var(--shadow-sm);
 }
 
 .author-info {

@@ -7,11 +7,19 @@ const Footer: FC = () => {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section footer-brand">
-            <img 
-              src="/assets/fda-image-o-wua1p2.png" 
-              alt="IndustryIceberg Logo" 
-              className="footer-logo"
-            />
+            <a 
+              href="/"
+              onClick={(e) => {
+                e.preventDefault()
+                window.scrollTo({ top: 0, behavior: 'smooth' })
+              }}
+            >
+              <img 
+                src="/assets/fda-image-o-wua1p2.png" 
+                alt="IndustryIceberg Logo" 
+                className="footer-logo"
+              />
+            </a>
             <p className="footer-tagline">
               Enabling intelligent decision-making across regulated and complex industries
             </p>
@@ -29,17 +37,21 @@ const Footer: FC = () => {
           <div className="footer-section">
             <h3 className="footer-heading">Products</h3>
             <ul className="footer-links">
-              <li><a href="https://gmpcomplianceai.azurewebsites.net/dashboard" target="_blank" rel="noopener noreferrer">GMP Complisense Platform</a></li>
-              <li><a href="https://veritascribe.netlify.app/" target="_blank" rel="noopener noreferrer">AI Drafting Platform</a></li>
-              <li><a href="#">Trainings Platform</a></li>
+              <li><a href="https://www.industryiceberg.com/">CDMO Finder</a></li>
+              <li><a href="https://gmpproduct.netlify.app/dashboard">CompliSense</a></li>
+              <li><a href="https://veritascribe.netlify.app/">VeritaScribe</a></li>
+              <li><a href="/video-creation-service">Video Creation Service</a></li>
+              <li><a href="/ectd-ai">ECTD AI</a></li>
             </ul>
           </div>
 
           <div className="footer-section">
             <h3 className="footer-heading">Solutions</h3>
             <ul className="footer-links">
-              <li><a href="https://gmpcomplianceai.azurewebsites.net/analysis" target="_blank" rel="noopener noreferrer">Complisense Intelligence</a></li>
-              <li><a href="https://veritascribe.azurewebsites.net/upload?open" target="_blank" rel="noopener noreferrer">VeritaScribe</a></li>
+              <li><a href="/complaint-site-search">Complaint Site Selection</a></li>
+              <li><a href="/gmp-compliance">GMP Compliance</a></li>
+              <li><a href="/veritascribe">AI Drafting</a></li>
+              <li><a href="/quality-training">Quality Training</a></li>
             </ul>
           </div>
 
@@ -96,10 +108,12 @@ const Footer: FC = () => {
               </div>
             </div>
             <div className="footer-address">
-              <p>123 Innovation Drive, Suite 500</p>
-              <p>San Francisco, CA 94105, United States</p>
-              <p>Email: contact@industryiceberg.com</p>
-              <p>Phone: +1 (555) 123-4567</p>
+              <p>
+                <a href="mailto:info@industryiceberg.com">info@industryiceberg.com</a>
+              </p>
+              <p>+91 91541 69469</p>
+              <p>5th floor, Rama Enclave, Miyapur</p>
+              <p>Hyderabad, Telangana, India 500049</p>
             </div>
           </div>
         </div>
