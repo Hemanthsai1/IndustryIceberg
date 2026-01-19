@@ -8,7 +8,7 @@ const Veritascribe: FC = () => {
       <section className="veritascribe-hero">
         <div className="hero-card">
           <div className="hero-logo">
-            <img src="/assets/fda-image-o-wua1p2.png" alt="Industry Iceberg Logo" />
+            <img src="/assets/image.png" alt="Industry Iceberg Logo" />
           </div>
         </div>
         <h1 className="hero-title">AI Drafting</h1>

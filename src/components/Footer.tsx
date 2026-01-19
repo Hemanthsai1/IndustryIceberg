@@ -15,7 +15,7 @@ const Footer: FC = () => {
               }}
             >
               <img 
-                src="/assets/fda-image-o-wua1p2.png" 
+                src="/assets/image.png" 
                 alt="IndustryIceberg Logo" 
                 className="footer-logo"
               />

@@ -136,7 +136,7 @@ const Navbar: FC = () => {
             }
           }}
         >
-          <img src="/assets/fda-image-o-wua1p2.png" alt="IndustryIceberg Logo" />
+          <img src="/assets/image.png" alt="IndustryIceberg Logo" />
         </a>
 
         <div className="navbar-menu">

@@ -33,7 +33,7 @@
 
 .hero-logo img {
   width: 100%;
-  max-width: 135px;
+  max-width: 165px;
   height: auto;
   display: block;
 }
@@ -408,7 +408,7 @@
   }
 
   .hero-logo img {
-    max-width: 125px;
+    max-width: 155px;
   }
 
   .hero-cta {

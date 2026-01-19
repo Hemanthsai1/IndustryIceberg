@@ -27,7 +27,7 @@ const ValueProposition: FC = () => {
           </div>
         </div>
         <p className="section-description">
-          IndustryIceberg builds AI-driven platforms that help organizations improve complisense, 
+          IndustryIceberg builds AI-driven platforms that help organizations improve compliance, 
           automate complex workflows, and make confident, data-backed decisions across regulated industries.
         </p>
       </div>
