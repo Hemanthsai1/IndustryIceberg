@@ -16,7 +16,7 @@ const Navbar: FC = () => {
 
   const productsMenu: DropdownItem[] = [
     { label: 'CDMO Finder', href: 'https://www.industryiceberg.com/' },
-    { label: 'CompliSense', href: 'https://gmpproduct.netlify.app/dashboard' },
+    { label: 'CompliSense', href: 'https://gmpproductpage.netlify.app/dashboard' },
     { label: 'VeritaScribe', href: 'https://veritascribe.netlify.app/' },
     { label: 'Video Creation Service', href: '/video-creation-service' },
     { label: 'ECTD AI', href: '/ectd-ai' }

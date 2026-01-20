@@ -82,7 +82,7 @@ const ProductsShowcase: FC = () => {
               </li>
             </ul>
             <a 
-              href="https://gmpproduct.netlify.app/dashboard" 
+              href="https://gmpproductpage.netlify.app/dashboard" 
               className="product-link"
             >
               Learn More →

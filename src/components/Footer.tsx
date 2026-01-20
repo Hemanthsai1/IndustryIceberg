@@ -38,7 +38,7 @@ const Footer: FC = () => {
             <h3 className="footer-heading">Products</h3>
             <ul className="footer-links">
               <li><a href="https://www.industryiceberg.com/">CDMO Finder</a></li>
-              <li><a href="https://gmpproduct.netlify.app/dashboard">CompliSense</a></li>
+              <li><a href="https://gmpproductpage.netlify.app/dashboard">CompliSense</a></li>
               <li><a href="https://veritascribe.netlify.app/">VeritaScribe</a></li>
               <li><a href="/video-creation-service">Video Creation Service</a></li>
               <li><a href="/ectd-ai">ECTD AI</a></li>
